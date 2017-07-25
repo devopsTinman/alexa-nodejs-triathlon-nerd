@@ -242,7 +242,7 @@ const intent = intentRequest.intent;
 
 function handleSessionEndRequest(callback) {
     const cardTitle = 'Session Ended';
-    const speechOutput = 'Thank you for using the Tri Facts Skill, have a great day!';
+    const speechOutput = 'Thank you for using the Triathlon Nerd Skill, have a great day!';
     // Setting this to true ends the session and exits the skill.
     const shouldEndSession = true;
 callback({}, buildSpeechletResponse(cardTitle, speechOutput, null, shouldEndSession));
