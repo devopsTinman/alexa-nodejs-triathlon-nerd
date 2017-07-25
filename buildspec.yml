@@ -3,8 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing source NPM dependencies...
-      - npm install 
+      - echo moving file no dependencies...
 artifacts:
   files:
     - alexa-nodejs-triathlon-nerd.js
