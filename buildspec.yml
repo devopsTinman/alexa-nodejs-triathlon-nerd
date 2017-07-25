@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install alexa-nodejs-triathlon-nerd.js
+artifacts:
+  files:
+    - HelloWorld.js
