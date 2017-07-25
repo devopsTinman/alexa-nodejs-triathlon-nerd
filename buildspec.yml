@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install alexa-nodejs-triathlon-nerd.js
+      - npm install 
 artifacts:
   files:
-    - HelloWorld.js
+    - alexa-nodejs-triathlon-nerd.js
